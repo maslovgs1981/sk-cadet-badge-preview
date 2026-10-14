@@ -1,0 +1,7 @@
+.viewer{width:96vw;max-width:1450px;height:94vh;padding:0;border:1px solid #687383;border-radius:8px;background:#20262e;color:white}
+.viewer::backdrop{background:#000c}
+.toolbar{display:flex;align-items:center;justify-content:center;gap:10px;padding:12px;border-bottom:1px solid #46505e}
+.toolbar button{font:inherit;background:#394554;color:white;border:1px solid #7a8798;border-radius:5px;padding:8px 16px;cursor:pointer}
+.toolbar output{min-width:60px;text-align:center}
+.stage{height:calc(100% - 65px);overflow:auto;padding:12px}
+.stage img{display:block;max-width:none;height:auto;margin:auto}
